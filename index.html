@@ -33,8 +33,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script>
 /* Inventario de Hilos · Textiles Camones — versión con Supabase (compartida entre usuarios) */
-const SUPABASE_URL = 'https://TU-PROYECTO.supabase.co';   // ← pega aquí tu Project URL
-const SUPABASE_KEY = 'TU_ANON_PUBLIC_KEY';
+const SUPABASE_URL = 'https://giswueaqaldakxghueqg.supabase.co';   // ← pega aquí tu Project URL
+const SUPABASE_KEY = 'sb_publishable_WrkKNAVa6vdVTcGk3Nb2Mg_Tv8UxSGa';
 const DOMINIO_USUARIOS = 'inventario-camones.com';   // no se envían correos: solo sirve para armar el usuario (GSOTO → gsoto@inventario-camones.com)                // ← pega aquí tu anon public key
 const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const CONFIGURADO = !SUPABASE_URL.includes('TU-PROYECTO') && !SUPABASE_KEY.includes('TU_ANON');
